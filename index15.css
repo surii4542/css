@@ -1,0 +1,49 @@
+* {
+    margin: 10px;
+}
+* {
+    padding: 20px;
+}
+
+
+
+h1{
+    background-color: #34ebb1
+}
+h1{
+   
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: brown;*/
+
+    border: solid black 2px;
+    
+    
+   
+}
+.first{
+    background-color: bisque;
+    /*border:solid red 3px;
+    border-top-right-radius: 5px;*/
+ 
+    border: solid black 2px;
+    border-width: 3px;
+   
+  
+   
+}
+.second{
+    background-color: blue;
+  
+    border: solid black 2px;
+    border-width: 3px;
+ 
+}
+.third{
+   background-color: yellow;
+   
+   border: solid black 2px;
+   border-width: 3px;
+
+}
+ 

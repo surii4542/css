@@ -1,0 +1,32 @@
+p{
+    font-style: italic;
+    font-size: 20px;
+   
+    font-weight:50;
+    
+}
+
+#para1{
+    background-color: yellow;
+}
+
+#para2{
+    background-color: rgb(193, 5, 217);
+}
+
+#para3{
+    background-color: rgba(66,176,86,0.5);
+}
+
+.firstclass{
+    background-color: #f542bf;
+}
+
+.secondclass{
+    background-color: hsl(48, 94%, 46%);
+}
+
+#thirdclass{
+    background-color: hsla(2, 100%,60%,0.5);
+}
+
