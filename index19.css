@@ -1,0 +1,38 @@
+#img1{
+    float: left;
+    border: yellow 2px solid;
+}
+#img2{
+    float: right;
+    border: red solid 3px;
+}
+
+#img3{
+    float: right;
+    
+}
+
+#img4{
+    float: right;
+    clear: right;
+}
+.box1{
+    border: blue 2px solid;
+    height: 500px;
+    width:500px;
+    overflow: auto;
+    float: left;
+
+}
+
+.item{
+    border: red 3px solid;
+    float: left;
+    height: 13rem;
+ }
+  
+#overflow{
+    border: greenyellow 3px solid;
+    height: 200px;
+    overflow: scroll;  
+}

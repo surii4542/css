@@ -1,0 +1,41 @@
+img{
+    margin: 10px;
+    width: 160px;
+    height: 150px;
+}
+
+div{
+
+    position: relative;
+    height: 800px;
+    width: 1000px;
+}
+
+.image1{
+    position: sticky;
+    top: 50px;
+
+}
+
+.image2{
+    position: sticky;
+    top: 50px;
+
+}
+.image3{
+    position: sticky;
+    top: 50px;
+
+}
+.image4{
+    position: sticky;
+    top: 50px;
+
+}
+
+#chatbot{
+    position: fixed;
+    top: 100px;
+    left: 600px;
+    border-radius: 500px;
+}

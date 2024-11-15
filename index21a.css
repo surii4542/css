@@ -1,0 +1,43 @@
+.flex{
+    border: 1px black solid;
+    margin: 5px;
+    padding: 5px;
+    background-color:bisque;
+    display:flex ;
+}
+
+#box1{
+    background-color:blueviolet;
+    border: 2px solid red;
+    margin: 2px;
+    padding: 2px;
+    width: 200px;
+  
+
+}
+p{
+    border: 1px red solid;
+    width: 200px;
+  
+}
+
+#box3{
+    background-color: gray;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid yellow;
+    height: 100px;
+    width: 180px;
+
+
+}
+
+img{
+    width: 80%;
+}
+
+@media (max-width:500px){
+    .flex{
+        flex-direction: column;
+    }
+}

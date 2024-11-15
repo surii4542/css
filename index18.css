@@ -1,0 +1,41 @@
+.box{
+    border: 2px red solid;
+    width: 50%;
+}
+
+.parent{
+    border: 1px green solid;
+    background-color: beige;
+}
+
+.child{
+    border: 1px green solid;
+    background-color: aquamarine;
+    width: 25%;
+}
+
+.vh{
+    border: 2px yellowgreen solid;
+    background-color: orange;
+    height: 25vh;
+    width: 50vw;
+}
+.suri{
+    border: 2px black solid;
+    font-size: 50px;
+}
+
+.container{
+    font-size: 10px;
+  
+
+}
+
+.three{
+    font-size: 10em;
+    padding: 2em;
+}
+
+.firstpara{
+    font-size: 5rem
+}
