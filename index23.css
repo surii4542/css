@@ -1,0 +1,127 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    border: 2px red solid;
+}
+
+.box{
+    width: 300px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 5px;
+    border: 3px black solid;
+    animation-name: rightmovement;
+    position: relative;
+    /*animation-duration: 5s;
+    animation-iteration-count:1;
+   animation-delay: 1s;
+   animation-timing-function: linear;
+  /* animation-direction: alternate;
+  animation-fill-mode: both;*/
+  animation: 3s ease-in 1s infinite alternate none running rightmovement;
+
+}
+
+@keyframes rightmovement{
+    from {
+        top: 0;
+        left: 0;
+
+    }
+
+    to{
+        top: 0;
+        left: 1200px;
+
+    }
+
+}
+
+.box2{
+    width: 300px;
+    height: 80px;
+    background-color: red;
+    border-radius: 5px;
+    border: 3px black solid;
+    position: relative;
+    animation-name: left;
+    /*animation-duration: 3s;
+    animation-iteration-count:infinite;
+   animation-delay: 1s;
+   animation-timing-function: linear;
+   animation-direction: alternate;*/
+
+   animation: 3s linear 1s infinite alternate none running left;
+ 
+    
+
+}
+
+@keyframes left{
+    from {
+        top: 550px;
+        left: 1000px;
+
+    }
+
+    to{
+        top: 550px;
+        left: 0;
+
+    }
+
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+    border: 3px black solid;
+    position: relative;
+    animation-name: circle;
+    animation: 3s linear 1s infinite alternate none running circle;
+    top: 1%;
+    left: 10%;
+
+}
+
+@keyframes circle{
+    0% {
+        top: 1%;
+        left: 5%;
+
+    }
+
+    30% {
+        top: 5%;
+        left: 90%;
+
+    }
+
+    60% {
+        top: 60%;
+        left: 10%;
+
+    }
+
+    100%{
+        top: 60%;
+        left: 90%;
+
+    }
+
+
+}
+
+    
+
+
+
