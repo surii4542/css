@@ -1,0 +1,40 @@
+.box{
+    width: 500px;
+    height: 600px;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+   
+
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    border: black 2px solid;
+    background-color: aqua;
+    transition: all;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    margin: auto;
+    padding: auto;
+
+}
+
+.box1:hover{
+    /*transform: rotate(45deg);*/
+    /*transform: scale(2);*/
+   /* transform: skew(45deg);*/
+   transform: translate(100px,50px);
+    
+}
+
+p{
+    font-size: 25px;
+    font-style: italic;
+}

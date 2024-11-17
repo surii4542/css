@@ -1,0 +1,19 @@
+.container{
+    height: 400px;
+    width:400px;
+    background-color: beige;
+    border: 2px black solid;
+   /* transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease;*/
+    transition: all 5s none ease-in-out;
+}
+
+
+
+.container:hover{
+    height: 200px;
+    width: 1000px;
+    background-color: blue;
+}
